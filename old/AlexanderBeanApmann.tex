@@ -1,0 +1,228 @@
+% AlexanderBeanApmann.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,12pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%Packages
+
+\usepackage{shading}
+\usepackage{multicol}
+\usepackage{hyperref}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+% Alexander Bean Apmann Resume . tex
+\begin{document}
+
+
+%  My Information
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Alexander Bean Apmann} & +1 (631) 988-7329\\
+Philadelphia, PA 19147 &  \href{mailto:alex.apmann@gmail.com}{alex.apmann@gmail.com}\\
+\href{https://beanthemoonman.io}{beanthemoonman.io} & \href{https://github.com/beanthemoonman}{github.com/beanthemoonman}
+\end{tabular*}
+
+
+%% Summary
+%\vspace{-6mm}
+%\resheading{Summary}
+%\vspace{-7mm}
+%blah blah blah
+
+
+% Work Experience
+\vspace{-6mm}
+\resheading{Work Experience}
+\vspace{-10mm}
+\begin{itemize}
+
+
+\vspace{-1mm}
+
+%S&S
+\item
+	\ressubheading{Harris Computer}{Philadelphia, PA (Remote)}{Team Lead, Research and Development}{May 2021 - Present}
+	\begin{itemize}
+		
+		\resitem{Managed team of programmers. Performing yearly performance reviews and helping work on goals/career development.}
+		
+		\resitem{Worked with senior management to refine interview process for new groups of programmers being hired to work remotely. Led technical interviews and reviewed programming skills tests to filter candidates.}
+		
+		\resitem{Acted as Scrum Master to a large group of programmers with varying experience.}
+		
+		\resitem{Built out code review process for new team and improved QA pass rate for new programmers by 20\%.}
+		
+		\resitem{Organized development efforts involving multiple developers. Handled work organization and internal stakeholder communication.}
+		
+		\resitem{Worked on a wide range of development items, including bug fixes and new features.}
+	
+		%\resitem{Performed technical interviews to hire and fill a team of programmers.}
+		
+		%\resitem{Created code review process and led code review meetings.}
+		
+		%\resitem{Co-led daily scrum meetings with team, working to ensure that deadlines are met and addressing blockers as a group.}
+		
+		%\resitem{Provided constructive feedback to team members to help improve quality and quantity of work.}
+	\end{itemize}
+
+\item		
+	\ressubheading{Harris Computer}{Winooski, VT}{Software Engineer, Support}{July 2018 - May 2021}
+	\begin{itemize}
+		
+		\resitem{Maintained Utility CIS software, working on full stack to fix bugs tracked in support tickets. Application stack including COBOL, Java, Javascript, and Oracle.}
+		
+		\resitem{Directly managed multiple accounts from a support perspective. Met regularly with clients to ensure tickets were being handled appropriately and needs were being met.}
+		
+		%\resitem{}
+		
+		%\resitem{Worked in customer advocate role, meeting regularly with customer to go over active tickets and other work.}
+		
+		%\resitem{Maintained tracking, communication, and deployment of SSL certificates for all front facing customer CIS web apps.}
+		
+		%\resitem{Oversaw customer outside vendor integration with main application platform. Assisting in setting up WSDL import and B2B authentication.}
+		
+		%\resitem{Assisted other developers in transitioning to a git+Ansible+Docker based deployment and versioning system.}
+		
+	\end{itemize}
+
+%CSL
+\item
+	\ressubheading{CSL Software Solutions}{Burlington, VT}{Lead Application Developer}{February 2017 - June 2018}
+	\begin{itemize}
+		
+		\resitem{Developed and maintained web applications for data entry and reporting. Used technologies such as ExtJS, DevExtreme, WCF, and SQL Server.}
+		
+		%\resitem{Designed and optimized SQL procedures and schema design for new and current projects.}
+		
+		%\resitem{Managed release deployment, testing, and infrastructure for several projects.}
+		
+		%\resitem{Acted as project manager for multiple projects. Worked directly with clients to plan and build multiple feature requests and configuration changes.}
+		
+		%\resitem{Worked on support requests including but not limited to, access management, configuration updates, and problem management.}
+		
+		%\resitem{Responsible for maintaining and upgrading active deployments of applications.}
+		
+		%\resitem{Worked directly with clients to manage and develop feature requests for applications.}		
+		
+		\resitem{Lead development of new multi-lingual offline web application for sales coaching. Worked to implement app with client teams in NA (US) and EU (UK, Belgium).}
+		
+		%\resitem{Worked dire}
+		
+	\end{itemize}
+
+% Stuff that was cool when I was leaving CSL and College
+%% Tutoring
+%\item
+%	\ressubheading{Champlain College}{Burlington VT}{Programming Tutor}{September 2014 - May 2017}
+%	\begin{itemize}
+%		\resitem{Tutored students taking Intro to Programming, Advanced Programming, and Data Structures \& Algorithms.}
+%		\resitem{Tutored students taking other classes in the Computer Science curriculum on an ad-hoc basis.}
+%	\end{itemize}
+%
+%% Teacher Assistant
+%%\item
+%%	\ressubheading{Champlain College}{Burlington VT}{Teacher Assistant}{January 2016 - May 2016}
+%%	\begin{itemize}
+%%		\resitem{Assisted a Professor for a section of Advanced Programming with grading assignments}
+%%		\resitem{Provided students with constructive feedback regarding their programming assignments}		
+%%	\end{itemize}
+%
+%% Programming Internship
+%\vspace{-1mm}
+%\item
+%	\ressubheading{Millhouse 1889 LLC}{Northport, NY}{Programming Intern}{August 2012 - December 2012}
+%	\begin{itemize}
+%		\resitem{Worked on a project written in Python to scrape product data from websites such as Home Depot and Lowe's.}
+%		\resitem{Maintained PostgreSQL database of product information and exported data into flat file format for use in other applications.}
+%				
+%	\end{itemize}
+\end{itemize}
+
+
+% Skills
+\vspace{-9mm}
+\resheading{Skills}
+\vspace{-10mm}
+\begin{description}
+\item[Programming:]
+Python, Java, JakartaEE, COBOL, Javascript (ExtJs, JQuery), C\#, C++
+\vspace{-2mm}
+\item[Web Application Frameworks:]
+Wildfly, Jboss, Flask
+\vspace{-2mm}
+\item[Databases:]
+Oracle, Microsoft SQL Server
+\vspace{-2mm}
+\item[Sysadmin:]
+Linux (Arch, RHEL, Oracle, Ubuntu), Windows Server
+\vspace{-2mm}
+\item[Web Servers:]
+Nginx, IIS, Apache
+\end{description}
+
+% Education
+\vspace{-7mm}
+\resheading{Education}
+\vspace{-11mm}
+\begin{itemize}
+	\item
+	\ressubheading{Champlain College}{Burlington, VT}{Computer Science \& Innovation}{Class of 2017}
+	
+	% Relevant Courses
+	%	\vspace{-1mm}
+	%	\begin{center}
+		%		Relevant Courses
+		%	\end{center}
+	%	\vspace{-8mm}
+	%	\begin{multicols}{2} %Course list
+		%		Database Management Systems\\
+		%        Software Testing, QA \& Security\\
+		%        Software Sys Analysis \& Design\\
+		%        Software Re-Engineering\\
+		%	\end{multicols}
+	%	\vspace{-3.5mm}
+	%		GPA: 3.42\\
+\end{itemize}
+% Work sample
+%\vspace{-9mm}
+%\resheading{Projects}
+%\vspace{-10mm}
+%\begin{description}
+%\item[Github:]
+%\href{https://github.com/Kaybass}{https://github.com/Kaybass}
+%\end{description}
+
+\end{document}
